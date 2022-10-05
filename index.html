@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/common.css" />
+    <link rel="stylesheet" href="styles/index.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="header">
+      <h1 class="header__logo">
+        <a href="/">
+          <img src="img/logo.svg" alt="logo" />
+        </a>
+      </h1>
+
+      <nav class="navigation">
+        <ul class="navigation-list">
+          <li class="navigation-item"><a href="#about">About</a></li>
+          <li class="navigation-item"><a href="#bicycle">Bicycle</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <div class="mainvisual">
+        <img class="mainvisual__image" src="img/mainvisual.jpg" alt="" />
+      </div>
+
+      <section id="about" class="section about">
+        <h2 class="section__title">About</h2>
+        <div class="about-contents">
+          <img
+            class="about-contents__myself-image"
+            src="/img/about.jpg"
+            alt="profile画像"
+          />
+          <div class="about-contents__profile">
+            <h3 class="about-contents__name">Kakeru Miyaichi</h3>
+            <p class="about-contents__self-introduction">
+              テキストテキストテキストテキストテキストテキストテキスト
+              テキストテキストテキストテキストテキストテキストテキスト
+              テキストテキストテキストテキストテキストテキストテキスト
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="bicycle" class="section bicycle">
+        <h2 class="section__title">Bicycle</h2>
+        <ul class="bicycle-list">
+          <li class="bicycle-item">
+            <img
+              class="bicycle-item__thumbnail"
+              src="/img/bicycle1.jpg"
+              alt="bicycle1の画像"
+            />
+            <h3 class="bicycle-item__title">タイトルタイトル</h3>
+            <p class="bicycle-item__body">テキストテキストテキスト</p>
+          </li>
+          <li class="bicycle-item">
+            <img
+              class="bicycle-item__thumbnail"
+              src="/img/bicycle2.jpg"
+              alt="bicycle2の画像"
+            />
+            <h3 class="bicycle-item__title">タイトルタイトル</h3>
+            <p class="bicycle-item__body">テキストテキストテキスト</p>
+          </li>
+          <li class="bicycle-item">
+            <img
+              class="bicycle-item__thumbnail"
+              src="/img/bicycle3.jpg"
+              alt="bicycle3の画像"
+            />
+            <h3 class="bicycle-item__title">タイトルタイトル</h3>
+            <p class="bicycle-item__body">テキストテキストテキスト</p>
+          </li>
+        </ul>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>
+        <small> &copy; 2020 Profile</small>
+      </p>
+    </footer>
+  </body>
+</html>
